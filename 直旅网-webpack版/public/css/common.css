@@ -1,0 +1,33 @@
+html,
+body{
+    font-size: 14px;
+}
+
+.main{
+    width: 1150px;
+    margin:0 auto;  
+}
+
+/* 弹性盒子*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 单行文本溢出隐藏 */
+.text-hidden{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 多行文本溢出隐藏 */
+
+.texts-hidden{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+
